@@ -1,0 +1,78 @@
+body {
+  background-color: red;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.nav img {
+  width: 50px;
+}
+.but {
+  display: flex;
+}
+.add-button {
+  height: 10px;
+  padding: 30px;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0px;
+}
+.posts ul li {
+  display: inline;
+}
+.posts li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  width: 100%;
+  list-style-type: none;
+}
+
+.wrap {
+  padding: 5px;
+
+  width: 20%;
+}
+.img {
+  width: 100%;
+  padding-bottom: 0px;
+}
+.div {
+  margin: 0 auto;
+}
+.wrap h4 {
+  width: 100%;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.pag {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.pag li {
+  margin-right: 5px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.pag li:hover,
+.pag li.active {
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}
